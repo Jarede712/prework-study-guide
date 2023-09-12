@@ -11,6 +11,7 @@
     <header id="header">
       <h1>Prework Study Guide</h1>
       <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+      <h2>✨ Open the Console to See What's Happening ✨</h2>
     </header>
     <main>
        <section class="card" id="html-section">
@@ -53,7 +54,21 @@
         <section class="card" id="javascript-section">
           <h2>JavaScript</h2>
           <ul>
-            <li>Enter your JavaScript notes here.</li>
+            <li>Conceptually, undefined indicates the absence of a value, while null indicates the absence of an object (which could also make up an excuse for typeof null === "object"). The language usually defaults to undefined when something is devoid of a value.</li>
+            <li>The Boolean type represents a logical entity and is inhabited by two values: true and false.</li>
+            <li>The BigInt type is a numeric primitive in JavaScript that can represent integers with arbitrary magnitude. With BigInts, you can safely store and operate on large integers even beyond the safe integer limit for Numbers.</li>
+            <li>The String type represents textual data and is encoded as a sequence of 16-bit unsigned integer values representing UTF-16 code units. Each element in the string occupies a position in the string. The first element is at index 0, the next at index 1, and so on. The length of a string is the number of UTF-16 code units in it, which may not correspond to the actual number of Unicode characters.</li>
+            <li>JavaScript strings are immutable. This means that once a string is created, it is not possible to modify it.</li>
+            <li>Use strings for textual data. When representing complex data, parse strings, and use the appropriate abstraction.</li>
+            <li>A Symbol is a unique and immutable primitive value and may be used as the key of an Object property.</li>
+            <li>In computer science, an object is a value in memory which is possibly referenced by an identifier. In JavaScript, objects are the only mutable values. Functions are, in fact, also objects with the additional capability of being callable.</li>
+            <li>Data properties associate a key with a value.</li>
+            <li>Accessor properties associates a key with one of two accessor functions (get and set) to retrieve or store a value.</li>
+            <li>Arrays are regular objects for which there is a particular relationship between integer-keyed properties and the length property.</li>
+            <li>JSON (JavaScript Object Notation) is a lightweight data-interchange format, derived from JavaScript, but used by many programming languages. JSON builds universal data structures that can be transferred between different environments and even across languages.</li>
+            <li>In coding parlance, a variable is simply a named container that allows us to store data in our code.</li>
+            <li>JavaScript is read from top to bottom, and order counts. This means that we must be intentional about how we set up code in a JS file; we cannot just throw it all in there any which way!</li>
+            <li>In JavaScript and many other programming languages, arrays are zero-indexed and sequential. This means that the first item in any array has an index of 0, not 1.</li>
           </ul>
           </section>
     </main>
@@ -61,5 +76,6 @@
     <footer>
       <p>I can code!</p>
     </footer>
+    <script src="./assets/script.js"></script>
   </body>
 </html>
